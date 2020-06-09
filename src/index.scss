@@ -1,0 +1,25 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$mainBlack : #222;
+$mainGreen : #82b340;
+$mainWhite : #fff;
+$mainRed : rgb(235, 21, 21);
+$mainGrey : rgba(242, 242, 242, 0.8);;
+$mainTransition:all .3s linear;
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: $mainWhite;
+  color: $mainBlack;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
